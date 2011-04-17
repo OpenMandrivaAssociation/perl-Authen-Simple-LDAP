@@ -1,10 +1,9 @@
 %define upstream_name   Authen-Simple-LDAP
 %define upstream_version    0.2
-%define release    %mkrel 4
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 4
 
 Summary:    Simple LDAP authentication
 License:    GPL+ or Artistic

@@ -1,6 +1,6 @@
 %define upstream_name   Authen-Simple-LDAP
 %define upstream_version    0.2
-%define release    %mkrel 3
+%define release    %mkrel 4
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}

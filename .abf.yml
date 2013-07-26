@@ -1,2 +1,4 @@
+removed_sources:
+  Authen-Simple-LDAP-0.2.tar.gz: 9edb167266afb36c040ba088518db9c328b7af31
 sources:
-  "Authen-Simple-LDAP-0.2.tar.gz": 9edb167266afb36c040ba088518db9c328b7af31
+  Authen-Simple-LDAP-0.3.tar.gz: 0d5f9b726e9025aeef219275eb4585c2c11e3958

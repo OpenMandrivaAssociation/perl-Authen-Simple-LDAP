@@ -1,15 +1,15 @@
 %define upstream_name   Authen-Simple-LDAP
-%define upstream_version    0.2
+%define upstream_version 0.3
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%perl_convert_version 0.3
+Release:	1
 
 Summary:	Simple LDAP authentication
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Authen/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Authen/Authen-Simple-LDAP-0.3.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Authen::Simple)
@@ -60,3 +60,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Oct 09 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.2-1mdv2009.1
 - initial mdv release, generated with cpan2dist
+

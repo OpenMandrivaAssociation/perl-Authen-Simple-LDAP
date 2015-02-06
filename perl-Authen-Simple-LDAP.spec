@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.3
-Release:	2
+Release:	3
 
 Summary:	Simple LDAP authentication
 License:	GPL+ or Artistic

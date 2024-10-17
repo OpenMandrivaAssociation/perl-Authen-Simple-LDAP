@@ -8,7 +8,7 @@ Release:	3
 Summary:	Simple LDAP authentication
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Authen/Authen-Simple-LDAP-0.3.tar.gz
 
 BuildRequires:	perl-devel
